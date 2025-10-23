@@ -1,0 +1,21 @@
+# Node dependencies
+node_modules/
+.next/
+out/
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+*.log
+
+# Env files
+.env
+.env.*
+
+# Editor artifacts
+.vscode/
+.idea/
+.DS_Store
