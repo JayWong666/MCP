@@ -1,0 +1,14 @@
+{
+  "name": "mcp-hems-workflow-builder",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace editor",
+    "build": "npm run build --workspace editor",
+    "start": "npm run start --workspace editor",
+    "lint": "npm run lint --workspace editor"
+  }
+}
